@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Array Js</title>
+</head>
+<body>
+<p>Hi hello</p>
+</body>
+<script type="text/javascript">
+	//manual array
+	let j= new Array("aung aung","maung maung","kyaw kyaw");
+	console.log(j);
+	let k=Array("su su","nu nu","mya mya");
+	console.log(k);
+
+	let l=[1200,1300,"aung",1700];
+	console.log(l);
+	console.log(l[3]);
+
+
+
+
+	//String is Character Array in Js
+	let aung= "aung ko ko";
+	console.log(aung[5]);
+
+	//outside array
+	//let m= new Array();
+	let m=[]
+	m[0]= "red";
+	m[1]="green";
+	m[2]="black";
+	m[3]="orange";
+	m[4]="blue";
+	console.log(m);
+
+
+	// Default Function for array
+	// console.log("array to string=" +m.toString());
+	// console.log("array to string by special char=" + m.join("/"));
+	// console.log("array value count="+ m.length);
+
+	// //Adding array data by behind
+	// m.push("gold");
+	// m.push("gray");
+	// console.log(m);
+	// //delete array by behind
+	// m.pop();
+	// console.log(m);
+	// m.pop();
+	// console.log(m);
+	// document.write(m);
+
+	//remove from start, beware index number
+	// m.shift();
+	// console.log(m);
+
+	//add data at front
+	// m.unshift("yellow");
+	// console.log(m);
+	//delete is not remove index number,
+	//delete m[2];
+	//console.log(m);
+	// m[2]="pink";
+	// console.log(m);
+	// Add data, by start from index number
+	// m.splice(2,0,"apple","mango","grape");
+	// console.log(m);
+
+	//Remove data where to how many
+	// m.splice(1,3);
+	// console.log(m);
+
+
+	// Array Combine
+	let arr1= ["aung aung","maung maung","zaw zaw","ko ko","kyaw kyaw","kaung kaung"];
+	let arr2=["nu nu","mya mya","su su","hla hla"];
+	let arr3=[1500,528];
+	// let cbm=arr1.concat(arr2);
+	// console.log(cbm);
+
+
+	//get data from exists array, 2 in slice parameter is index number 
+	// let arr4 = arr1.slice(2);
+	// console.log("arr4="+arr4);
+
+	// let arr5 = arr1.slice(0,2);
+	// console.log(arr5);
+	console.log(arr1);
+	//Sort A to Z
+	console.log(arr1.sort());
+	console.log(arr1.reverse());
+	let arr4=[10,23,14,11,50,4,6,7,120,45,300,66];
+	console.log(arr4);
+	console.log(arr4.sort(function(a,b){
+		return a-b;
+
+	}))
+	console.log(arr4.sort(function(a,b){
+		return b-a;
+	}))	
+
+	//Array as Object
+	//Manual Array (index+value)
+	//Associate Array (index+key+Value)
+	
+	let arr5=[];
+	arr5["firstname"]="Ko";
+	arr5["lastname"]="Aung";
+	arr5["age"]=26;
+	arr5["address"]="Mandalay";
+	console.log(arr5);
+	console.log(arr5["address"]);	
+
+	//Array as Object(API)
+
+	let arr6={
+		firstname :"Tin",
+		middlenae :"Htut",
+		lastname :"Aung",
+		age :27
+	}
+	console.log(arr6);
+
+	let arr7={
+		"firstname" :"Tin",
+		"middlenae" :"Htut",
+		"lastname" :"Aung",
+		"age" :27
+	}
+	console.log(arr7);
+
+	//Comparison Operators
+	// == equal to
+	// ===equal value and equal type
+	// !=not equal
+	// !==not equal value and not equal type
+	// > greater than
+	// < less than
+	// >=greater than or equal to
+	// <= less than or equal to
+	// ? tinary Operators
+	let num1=4;
+	let num2=2;
+	document.write("equal to result="+(num1==num2)+"<br>");
+	document.write("equal value and equal type result="+(num1===num2)+"<br>");
+	document.write("not equal to result="+(num1!=num2)+"<br>");
+	document.write("not equal value and not equal type result="+(num1!==num2)+"<br>");
+	document.write("greater than result="+(num1>num2)+"<br>");
+	document.write("less than result="+(num1<num2)+"<br>");
+	document.write("greater than or equal to result="+(num1>=num2)+"<br>");
+	document.write("less than or equal to result="+(num1>=num2)+"<br>");
+	document.write("tinary result="+(num1>num2?"Yes,num1 is greater than num2":"No,num1 is not greater than num2")+"<br>");
+
+	// Logical Operator 3
+	//&& and
+	//|| or
+	// ! not
+</script>
+</html>

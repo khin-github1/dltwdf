@@ -1,0 +1,110 @@
+body{
+	background-image: url(../img/background/bg2.jpg);
+	background-repeat: no-repeat;
+	}
+.div1{
+	width: 460px;
+	height: 700px;
+	background-color: white;
+	margin:300px 810px;
+	border-radius: 5px;
+	
+}
+.signup{
+	font-size: 25px;
+	font-family:sans-serif;
+	padding: 20px 20px;
+	font-weight: 600;
+	opacity: 0.6;
+
+	}
+input[type="text"]{
+	width: 400px;
+	height: 30px;
+	font-size: 18px;
+	font-family: "Century Gothic";
+	border: none;
+	border-bottom: 1px solid gray;
+
+	}
+input[type="email"]{
+	width: 400px;
+	height: 30px;
+	font-size: 18px;
+	font-family: "Century Gothic";
+	border: none;
+	border-bottom: 1px solid gray;
+
+}
+input[type="password"]{
+	width: 400px;
+	height: 30px;
+	font-size: 18px;
+	font-family: "Century Gothic";
+	border: none;
+	border-bottom: 1px solid gray;
+}
+input[type="date"]{
+	width: 403px;
+	height: 30px;
+	font-size: 18px;
+	opacity: 0.7;
+	font-family: "Century Gothic";
+	border: none;
+	border-bottom: 1px solid gray;
+
+	}
+input[type="radio"]{
+	margin: 0 0px 0 25px;
+
+	font-size: 30px;
+	font-family: "Century Gothic";
+	width: 18px;
+	height: 18px;
+
+}
+input[type="submit"]{
+	width: 400px;
+	height: 40px;
+	background-color: blue;
+	color: white;
+	font-size: 18px;
+	opacity: 0.6;
+	border-radius: 4px;
+}
+form{
+	font-family: "Century Gothic";
+}
+p{
+	font-size: 19px;
+	font-family: "Century Gothic";
+}
+.with{
+	opacity: 0.7;
+	font-family:SansSerif;
+}
+img{
+	width: 20px;
+	height: 20px;
+	}
+a{
+	text-decoration: none;
+	font-weight: 500;
+	color: #1c95d6;
+	font-family:SansSerif;
+}
+.paragraph{
+	font-size: 14px;
+	opacity: 0.5;
+	font-weight: 550;
+	text-indent: 10px;
+
+
+}
+input[type="text"]:focus{
+	outline: none;
+	border-bottom: 2px solid blue;
+}
+.cu{
+	list-style: none;
+}

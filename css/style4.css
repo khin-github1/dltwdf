@@ -1,0 +1,51 @@
+.div2{
+	color: white;
+	width: 340px;
+	height: 300px;
+	border: 2px;
+	border-style: dotted;
+	background-color: rgba(0,0,0,0.23);
+	margin: 150px 810px;
+}
+h2{
+	text-shadow: -5px -5px 3px black;
+	margin:0px 550px;
+
+}
+h4{
+	text-shadow: -3px -4px 3px black;
+	margin:0px 160px;
+	font-size: 20px;
+}
+
+.one{
+	margin:0px 38px;
+	text-shadow: -3px -4px 3px black;
+}
+.two{
+	margin:0px 40px;
+	text-shadow: -3px -4px 3px black;
+}
+
+.three{
+	margin:0px 180px;
+}
+.four{
+	margin:-24px 240px;
+}
+.five{
+	text-align: justify;
+	font-size: 18.1px;
+}
+body{
+	color: white;
+	font-size: 20px;
+	background-image: url(../img/background/bg2.jpg);
+	background-repeat: no-repeat;
+}
+.footer{
+	font-size: 19px;
+	background-color:white;
+	text-align: right;
+	color:blue;
+}

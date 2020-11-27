@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Greeting Js</title>
+</head>
+<body>
+	<h1>Welcome to Javascript</h1>
+
+	<h3 id="greeting">Hello Myamar</h3>
+	<p id="poem"></p>
+
+	<div>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7GmUKS9IVR_3uChqtzoqZqJ52uTCluimwPw&usqp=CAU" id="funny">
+
+
+	<button onclick="document.getElementById('funny').src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQIvGD1O-WSEApcmyAtuEAY-lgRKzJmXIYE-A&usqp=CAU'">Shame</button>
+	
+	<button onclick="document.getElementById('funny').src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTAC-XRGs3IYNMONCOAtBrf0jPUTUjBYImDZg&usqp=CAU';">Cry</button>
+	<button onclick="document.getElementById('funny').src='img/background/blah.jpg';">Bleh</button>
+	<button onclick="document.getElementById('funny').src='img/background/smile.jpg'">Happy</button>
+</div>
+
+</body>
+<script type="text/javascript">
+	console.log("Hello Mandalay");
+	console.log(528);
+	console.log("1500");
+	//window.alert("Are you sure to go this page");
+
+	//Variable
+	var sayar = "Tin Htut Aung";
+	let koko="Aung Kyaw Min Naing";
+	let num1 = 1500;
+	let num2 = 528;
+	console.log(sayar);
+	console.log("sayar");
+	console.log('sayar');
+	console.log(koko);
+
+	console.log(num1+num2);
+	document.write(koko);
+
+	let greeting = "Welcome";
+	let city1 = "Mandalay";
+	let city2 = "Yangon";
+
+	document.getElementById("greeting").innerHTML=greeting + " " + city2 + " " + "i love Myanmar";
+	//document.getElementById("greeting").innerHTML=greeting + " " + city1 + " " + "i love Myanmar";
+
+	//Special Escape Character
+
+	let x="It is U Ba'\s";
+	let y="poem.";
+	let z="He\'s my \"Uncle\"";
+	document.getElementById("poem").innerHTML=x +" "+y+" "+z;
+
+</script>
+</html>
